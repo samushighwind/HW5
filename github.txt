@@ -1,0 +1,12 @@
+git clone https://github.com/….git //sets up repository.
+
+[do edits…]
+
+
+git pull //get most recent files
+git add [file_name] //add the files you are working on
+[optional] git status //checks status
+git commit -m “message” 
+git push origin master
+
+

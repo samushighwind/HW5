@@ -29,6 +29,7 @@
 \setlength{\pdfpageheight}{11in} 
 \usepackage{amsmath}
 \usepackage{amsthm}
+\usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{graphics}
 \usepackage{moreverb}
@@ -40,10 +41,12 @@
 \usepackage{multirow, multicol}
 \usepackage{url}
 \usepackage{tablefootnote}
+\usepackage{textcase}
 \usepackage{color}
 
 \setcounter{secnumdepth}{1}
 \nocopyright
+\newcommand\textlcsc[1]{\textsc{\MakeTextLowercase{#1}}}
 
 % Fill in your paper title, names and emails below
 % The "\\" is used to break lines. The \url command
@@ -77,7 +80,7 @@
 \input{experiments}
 \input{results}
 \input{conclusion}
-\input{ack}
+%\input{ack} //keep commented unless we want acknowledgements.
 
 % This creates the references section. Open the project1.bib file to
 % see how to organize your references.

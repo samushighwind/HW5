@@ -1,0 +1,22 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Auer, Cesa-Bianchi, and Fischer}{2002}]{auer}
+Auer, P.; Cesa-Bianchi, N.; and Fischer, P.
+\newblock 2002.
+\newblock Finite-time analysis of the multiarmed bandit problem.
+\newblock {\em Mach. Learn.} 47(2-3):235--256.
+
+\bibitem[\protect\citeauthoryear{Bubeck and Cesa{-}Bianchi}{2012}]{bubeck}
+Bubeck, S., and Cesa{-}Bianchi, N.
+\newblock 2012.
+\newblock Regret analysis of stochastic and nonstochastic multi-armed bandit
+  problems.
+\newblock {\em CoRR} abs/1204.5721.
+
+\bibitem[\protect\citeauthoryear{Russell and Norvig}{2003}]{aima}
+Russell, S.~J., and Norvig, P.
+\newblock 2003.
+\newblock {\em {Artificial Intelligence: A Modern Approach}}.
+\newblock Pearson Education.
+
+\end{thebibliography}

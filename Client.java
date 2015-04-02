@@ -34,13 +34,50 @@ class Client {
             plays++;
         }
         
-        System.out.print("Play distribution: ");
+        System.out.print("Play distribution for ucb1: ");
         for(int i = 0; i < currentDistribution.length; i++) {
             System.out.print(i + ": " + playCounter[i] + "  ");
         }
         System.out.println();
         
-        System.out.print("Reward distribution: ");
+        System.out.print("Reward distribution for ucb1: ");
+        for(int i = 0; i < currentDistribution.length; i++) {
+            System.out.print(i + ": " + rewardCounter[i] + "  ");
+        }
+        System.out.println();
+        
+        playCounter = new int[10];
+        rewardCounter = new int[10];
+        plays = 0;
+        
+        /*//initalizing
+        for(int i = 0; i < currentDistribution.length; i++) {
+            if(Math.random() < currentDistribution[i]) {
+                rewardCounter[i]++;
+            }
+            playCounter[i]++;
+            plays++;
+        }*/
+        
+        double c = .1;
+        double d = .5;
+        
+        for(int i = 0; i < NUM_RUNS; i++) {
+            int j = enGreedy(playCounter, rewardCounter, plays, currentDistribution.length, c, d);
+            if(Math.random() < currentDistribution[j]) {
+                rewardCounter[j]++;
+            }
+            playCounter[j]++;
+            plays++;
+        }
+        
+        System.out.print("Play distribution for enGreedy: ");
+        for(int i = 0; i < currentDistribution.length; i++) {
+            System.out.print(i + ": " + playCounter[i] + "  ");
+        }
+        System.out.println();
+        
+        System.out.print("Reward distribution for enGreedy: ");
         for(int i = 0; i < currentDistribution.length; i++) {
             System.out.print(i + ": " + rewardCounter[i] + "  ");
         }
@@ -66,7 +103,25 @@ class Client {
     }
     
     //this returns the machine j according the enGreedy policy
-    static int ucb1(int[] playCounter, int[] rewardCounter, int plays, int size) {
-        
+    static int enGreedy(int[] playCounter, int[] rewardCounter, int plays, int size, double c, double d) {
+        double en = (c * size) / (d * d * plays);
+        if(en > 1) en = 1.0;
+        double max = (double)rewardCounter[0] / playCounter[0];
+        int j = 0;
+        for(int i = 1; i < size; i++) {
+            double test = (double)rewardCounter[i] / playCounter[i];
+            if(test > max) {
+                max = test;
+                j = i;
+            }
+        }
+        if(Math.random() < en)
+            return (int) (Math.random() * size);
+        return j;
+    }
+    
+    static int[] clear(int[] array) {
+        for(int i : array) i = 0;
+        return array;
     }
 }

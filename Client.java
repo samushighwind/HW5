@@ -14,7 +14,7 @@ class Client {
         int[] rewardCounter = new int[10];
         int plays = 0;
         
-        double[] currentDistribution = DIST3;
+        double[] currentDistribution = DIST1;
         
         //initalizing
         for(int i = 0; i < currentDistribution.length; i++) {
@@ -33,7 +33,7 @@ class Client {
             playCounter[j]++;
             plays++;
             if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
-                printResults(i, playCounter, rewardCounter, currentDistribution, true);
+                printResults(i, playCounter, rewardCounter, currentDistribution, plays, true);
             }
         }
         
@@ -62,7 +62,7 @@ class Client {
             playCounter[j]++;
             plays++;
             if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
-                printResults(i, playCounter, rewardCounter, currentDistribution, false);
+                printResults(i, playCounter, rewardCounter, currentDistribution, plays, false);
             }
         }
     }
@@ -103,7 +103,7 @@ class Client {
         return j;
     }
     
-    static void printResults(int j, int[] playCounter, int[] rewardCounter, double[] currentDistribution, boolean ucb) {
+    static void printResults(int j, int[] playCounter, int[] rewardCounter, double[] currentDistribution, int plays, boolean ucb) {
         System.out.println("i = " + j + ":");
         if(ucb) System.out.print("Play distribution for ucb1: ");
         else System.out.print("Play distribution for enGreedy: ");
@@ -126,6 +126,8 @@ class Client {
         if(ucb) System.out.print("Regret for ucb1: ");
         else System.out.print("Regret for enGreedy: ");
         System.out.println(currentDistribution[0] * (j+1) - sum);
+        if(ucb) System.out.println("% best machine played for ucb1: " + ((double)playCounter[0])/plays);
+        else System.out.println("% best machine played for enGreedy: " + ((double)playCounter[0])/plays);
         System.out.println();
     }
 }

@@ -14,7 +14,7 @@ class Client {
         int[] rewardCounter = new int[10];
         int plays = 0;
         
-        double[] currentDistribution = DIST12;
+        double[] currentDistribution = DIST3;
         
         //initalizing
         for(int i = 0; i < currentDistribution.length; i++) {
@@ -32,19 +32,10 @@ class Client {
             }
             playCounter[j]++;
             plays++;
+            if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
+                printResults(i, playCounter, rewardCounter, currentDistribution, true);
+            }
         }
-        
-        System.out.print("Play distribution for ucb1: ");
-        for(int i = 0; i < currentDistribution.length; i++) {
-            System.out.print(i + ": " + playCounter[i] + "  ");
-        }
-        System.out.println();
-        
-        System.out.print("Reward distribution for ucb1: ");
-        for(int i = 0; i < currentDistribution.length; i++) {
-            System.out.print(i + ": " + rewardCounter[i] + "  ");
-        }
-        System.out.println();
         
         playCounter = new int[10];
         rewardCounter = new int[10];
@@ -59,8 +50,9 @@ class Client {
             plays++;
         }*/
         
-        double c = .1;
-        double d = .5;
+        double c = Double.parseDouble(args[0]);
+        double d = currentDistribution[0] - currentDistribution[1];
+        System.out.println("ENGREEDY: C = " + c + "\n");
         
         for(int i = 0; i < NUM_RUNS; i++) {
             int j = enGreedy(playCounter, rewardCounter, plays, currentDistribution.length, c, d);
@@ -69,19 +61,10 @@ class Client {
             }
             playCounter[j]++;
             plays++;
+            if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
+                printResults(i, playCounter, rewardCounter, currentDistribution, false);
+            }
         }
-        
-        System.out.print("Play distribution for enGreedy: ");
-        for(int i = 0; i < currentDistribution.length; i++) {
-            System.out.print(i + ": " + playCounter[i] + "  ");
-        }
-        System.out.println();
-        
-        System.out.print("Reward distribution for enGreedy: ");
-        for(int i = 0; i < currentDistribution.length; i++) {
-            System.out.print(i + ": " + rewardCounter[i] + "  ");
-        }
-        System.out.println();
     }
     
     //this returns the machine j according to the ucb1 policy.
@@ -120,8 +103,29 @@ class Client {
         return j;
     }
     
-    static int[] clear(int[] array) {
-        for(int i : array) i = 0;
-        return array;
+    static void printResults(int j, int[] playCounter, int[] rewardCounter, double[] currentDistribution, boolean ucb) {
+        System.out.println("i = " + j + ":");
+        if(ucb) System.out.print("Play distribution for ucb1: ");
+        else System.out.print("Play distribution for enGreedy: ");
+        for(int i = 0; i < currentDistribution.length; i++) {
+            System.out.print(i + ": " + playCounter[i] + "  ");
+        }
+        System.out.println();
+        
+        if(ucb) System.out.print("Reward distribution for ucb1: ");
+        else System.out.print("Play distribution for enGreedy: ");
+        for(int i = 0; i < currentDistribution.length; i++) {
+            System.out.print(i + ": " + rewardCounter[i] + "  ");
+        }
+        System.out.println();
+        
+        int sum = 0;
+        for(int i = 0; i < currentDistribution.length; i++) {
+            sum += currentDistribution[i] * playCounter[i];
+        }
+        if(ucb) System.out.print("Regret for ucb1: ");
+        else System.out.print("Regret for enGreedy: ");
+        System.out.println(currentDistribution[0] * (j+1) - sum);
+        System.out.println();
     }
 }

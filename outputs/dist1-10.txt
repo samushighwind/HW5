@@ -1,0 +1,72 @@
+i = 0:
+Play distribution for ucb1: 0: 2  1: 1  
+Reward distribution for ucb1: 0: 2  1: 1  
+Regret for ucb1: -0.09999999999999998
+
+i = 9:
+Play distribution for ucb1: 0: 7  1: 5  
+Reward distribution for ucb1: 0: 7  1: 4  
+Regret for ucb1: 0.0
+
+i = 99:
+Play distribution for ucb1: 0: 64  1: 38  
+Reward distribution for ucb1: 0: 58  1: 30  
+Regret for ucb1: 11.0
+
+i = 999:
+Play distribution for ucb1: 0: 909  1: 93  
+Reward distribution for ucb1: 0: 811  1: 58  
+Regret for ucb1: 27.0
+
+i = 9999:
+Play distribution for ucb1: 0: 9853  1: 149  
+Reward distribution for ucb1: 0: 8874  1: 88  
+Regret for ucb1: 44.0
+
+i = 99999:
+Play distribution for ucb1: 0: 99805  1: 197  
+Reward distribution for ucb1: 0: 89946  1: 113  
+Regret for ucb1: 58.0
+
+i = 999999:
+Play distribution for ucb1: 0: 999761  1: 241  
+Reward distribution for ucb1: 0: 899807  1: 136  
+Regret for ucb1: 72.0
+
+ENGREEDY: C = 0.1
+
+i = 0:
+Play distribution for enGreedy: 0: 0  1: 1  
+Play distribution for enGreedy: 0: 0  1: 1  
+Regret for enGreedy: 0.9
+
+i = 9:
+Play distribution for enGreedy: 0: 3  1: 7  
+Play distribution for enGreedy: 0: 3  1: 5  
+Regret for enGreedy: 3.0
+
+i = 99:
+Play distribution for enGreedy: 0: 92  1: 8  
+Play distribution for enGreedy: 0: 86  1: 5  
+Regret for enGreedy: 4.0
+
+i = 999:
+Play distribution for enGreedy: 0: 989  1: 11  
+Play distribution for enGreedy: 0: 888  1: 7  
+Regret for enGreedy: 4.0
+
+i = 9999:
+Play distribution for enGreedy: 0: 9985  1: 15  
+Play distribution for enGreedy: 0: 8986  1: 9  
+Regret for enGreedy: 5.0
+
+i = 99999:
+Play distribution for enGreedy: 0: 99979  1: 21  
+Play distribution for enGreedy: 0: 90052  1: 14  
+Regret for enGreedy: 7.0
+
+i = 999999:
+Play distribution for enGreedy: 0: 999973  1: 27  
+Play distribution for enGreedy: 0: 900170  1: 17  
+Regret for enGreedy: 9.0
+

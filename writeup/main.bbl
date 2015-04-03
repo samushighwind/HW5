@@ -1,5 +1,12 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Agrawal}{1995}]{agrawal}
+Agrawal, R.
+\newblock 1995.
+\newblock Sample mean based index policies with o(log n) regret for the
+  multi-armed bandit problem.
+\newblock {\em Advances in Applied Probability} 27(4):pp. 1054--1078.
+
 \bibitem[\protect\citeauthoryear{Auer, Cesa-Bianchi, and Fischer}{2002}]{auer}
 Auer, P.; Cesa-Bianchi, N.; and Fischer, P.
 \newblock 2002.

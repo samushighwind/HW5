@@ -2,21 +2,55 @@
 \section{Background}
 \label{sec:background}
 
-Describe any background information that the reader would need to know
-to understand your work. You do not have to explain algorithms or
-ideas that we have seen in class. Rather, use this section to describe
-techniques that you found elsewhere in the course of your research,
-that you have decided to bring to bear on the problem at hand. Don't
-go overboard here --- if what you're doing is quite detailed, it's
-often more helpful to give a sketch of the big ideas of the approaches
-that you will be using. You can then say something like ``the reader
-is referred to X for a more in-depth description of...'', and include
-a citation.\\
+At every state, the agent picks an arm to play depending on a
+policy. The two deterministic policies that were analyzed were the
+\textlcsc{UCB1} and the $\mathcal{E}_n$-\textlcsc{greedy} policies,
+as defined by \citeauthor{auer} (\citeyear{auer}). In the \textlcsc{UCB1}
+policy, which \citeauthor{auer} (\citeyear{auer}) derived from
+\citeauthor{agrawal} (\citeyear{agrawal}), the agent plays the machine
+that maximizes: \begin{equation}\bar{x_j} +
+  \sqrt{\frac{2\ln{n}}{n_j}}\end{equation} where $\bar{x_j}$ is the
+average reward obtained from machine $j$, $n_j$ is the number of times
+machine $j$ has been played so far, and $n$ is the total number of
+plays so far. 
 
-Alternately, you may have designed a novel approach for the problem
---- your own algorithm or heuristic, say. A description of these would
-also be placed in this section (use subsections to better organize the
-content in this case).
+The $\mathcal{E}_n$-\textlcsc{greedy} policy is defined by playing
+the machine with the current highest reward with probability
+1-$\mathcal{E}_n$, otherwise play a random arm. $\mathcal{E}_n$ is
+defined by: \begin{equation}\mathcal{E}_n = \min \Bigl\{ 1,
+  \frac{cK}{d^2n} \Bigr\} \end{equation} with $c$, $d$ as parameters, $K$
+is the number of arms in the given distribution, and $n$ is the total
+number of plays so far.
+
+To determine the quality of a policy, we use two metrics. The first is
+the proportion of times that the actual best machine was
+played. Naturally, a good policy will play the actual best machine
+a higher percentage of times, especially over time once it has learned
+appropriately. The second metric to measure the quality of a policy is
+regret. Regret is the difference between how well you could have done,
+had you known the probability distribution in advance, compared to how
+well you actually did. Essentially, you take the difference for each
+selection you made, of the reward from the selected arm subtracted by
+the reward from the optimal arm. A smaller regret means that the
+policy picked the optimal arm more times or an arm that was very close
+to optimal. Therefore, smaller regret values indicate a better policy.
+
+ 
+% Describe any background information that the reader would need to know
+% to understand your work. You do not have to explain algorithms or
+% ideas that we have seen in class. Rather, use this section to describe
+% techniques that you found elsewhere in the course of your research,
+% that you have decided to bring to bear on the problem at hand. Don't
+% go overboard here --- if what you're doing is quite detailed, it's
+% often more helpful to give a sketch of the big ideas of the approaches
+% that you will be using. You can then say something like ``the reader
+% is referred to X for a more in-depth description of...'', and include
+% a citation.\\
+
+% Alternately, you may have designed a novel approach for the problem
+% --- your own algorithm or heuristic, say. A description of these would
+% also be placed in this section (use subsections to better organize the
+% content in this case).
 
 % Note the \subsection{} command 
 % \subsection{Enumerating}

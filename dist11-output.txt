@@ -1,178 +1,613 @@
 UCB1:
 
-i = 0:
-Play distribution for ucb1: 0: 1  1: 1  2: 2  3: 1  4: 1  5: 1  6: 1  7: 1  8: 1  9: 1  
-Reward distribution for ucb1: 0: 0  1: 0  2: 2  3: 1  4: 1  5: 1  6: 1  7: 0  8: 1  9: 1  
-Regret for ucb1: -0.09999999999999998
-% best machine played for ucb1: 0.09090909090909091
+i = 1:
+Play distribution for ucb1: 0: 2  1: 1  2: 1  3: 1  4: 1  5: 1  6: 1  7: 1  8: 1  9: 1  
+Reward distribution for ucb1: 0: 2  1: 1  2: 1  3: 0  4: 1  5: 1  6: 0  7: 1  8: 0  9: 1  
+Regret for ucb1: 0.8
+% best machine played for ucb1: 0.18181818181818182
+
+i = 3:
+Play distribution for ucb1: 0: 2  1: 2  2: 2  3: 1  4: 1  5: 1  6: 1  7: 1  8: 1  9: 1  
+Reward distribution for ucb1: 0: 2  1: 1  2: 2  3: 0  4: 1  5: 1  6: 0  7: 1  8: 0  9: 1  
+Regret for ucb1: 0.6000000000000001
+% best machine played for ucb1: 0.15384615384615385
+
+i = 6:
+Play distribution for ucb1: 0: 2  1: 2  2: 2  3: 1  4: 2  5: 2  6: 1  7: 2  8: 1  9: 1  
+Reward distribution for ucb1: 0: 2  1: 1  2: 2  3: 0  4: 2  5: 2  6: 0  7: 1  8: 0  9: 1  
+Regret for ucb1: 0.2999999999999998
+% best machine played for ucb1: 0.125
 
 i = 9:
-Play distribution for ucb1: 0: 1  1: 1  2: 3  3: 3  4: 2  5: 2  6: 3  7: 1  8: 2  9: 2  
-Reward distribution for ucb1: 0: 0  1: 0  2: 3  3: 3  4: 1  5: 1  6: 3  7: 0  8: 1  9: 1  
-Regret for ucb1: 2.0
-% best machine played for ucb1: 0.05
+Play distribution for ucb1: 0: 3  1: 2  2: 3  3: 1  4: 2  5: 2  6: 1  7: 2  8: 1  9: 2  
+Reward distribution for ucb1: 0: 3  1: 1  2: 3  3: 0  4: 2  5: 2  6: 0  7: 1  8: 0  9: 1  
+Regret for ucb1: 1.0
+% best machine played for ucb1: 0.15789473684210525
 
-i = 99:
-Play distribution for ucb1: 0: 16  1: 4  2: 16  3: 15  4: 7  5: 15  6: 13  7: 5  8: 9  9: 10  
-Reward distribution for ucb1: 0: 13  1: 0  2: 12  3: 11  4: 3  5: 11  6: 9  7: 1  8: 5  9: 6  
-Regret for ucb1: 22.0
-% best machine played for ucb1: 0.14545454545454545
+i = 10:
+Play distribution for ucb1: 0: 3  1: 2  2: 3  3: 1  4: 3  5: 2  6: 1  7: 2  8: 1  9: 2  
+Reward distribution for ucb1: 0: 3  1: 1  2: 3  3: 0  4: 2  5: 2  6: 0  7: 1  8: 0  9: 1  
+Regret for ucb1: 1.9000000000000004
+% best machine played for ucb1: 0.15
 
-i = 999:
-Play distribution for ucb1: 0: 455  1: 22  2: 69  3: 97  4: 56  5: 80  6: 50  7: 46  8: 75  9: 60  
-Reward distribution for ucb1: 0: 408  1: 6  2: 43  3: 67  4: 32  5: 52  6: 27  7: 24  8: 48  9: 35  
-Regret for ucb1: 160.0
-% best machine played for ucb1: 0.4504950495049505
+i = 30:
+Play distribution for ucb1: 0: 7  1: 3  2: 7  3: 2  4: 5  5: 4  6: 2  7: 4  8: 2  9: 4  
+Reward distribution for ucb1: 0: 6  1: 1  2: 6  3: 0  4: 3  5: 2  6: 0  7: 2  8: 0  9: 2  
+Regret for ucb1: 4.900000000000002
+% best machine played for ucb1: 0.175
 
-i = 9999:
-Play distribution for ucb1: 0: 8606  1: 225  2: 160  3: 175  4: 157  5: 156  6: 175  7: 94  8: 140  9: 122  
-Reward distribution for ucb1: 0: 7775  1: 149  2: 97  3: 109  4: 95  5: 94  6: 109  7: 47  8: 82  9: 68  
-Regret for ucb1: 414.0
-% best machine played for ucb1: 0.8597402597402597
+i = 60:
+Play distribution for ucb1: 0: 12  1: 7  2: 10  3: 6  4: 7  5: 7  6: 3  7: 6  8: 6  9: 6  
+Reward distribution for ucb1: 0: 10  1: 4  2: 7  3: 2  4: 4  5: 3  6: 0  7: 3  8: 2  9: 2  
+Regret for ucb1: 13.899999999999999
+% best machine played for ucb1: 0.17142857142857143
 
-i = 99999:
-Play distribution for ucb1: 0: 97721  1: 344  2: 259  3: 262  4: 240  5: 262  6: 252  7: 193  8: 227  9: 250  
-Reward distribution for ucb1: 0: 88020  1: 226  2: 160  3: 162  4: 145  5: 162  6: 154  7: 110  8: 135  9: 153  
-Regret for ucb1: 681.0
-% best machine played for ucb1: 0.9771122887711229
+i = 90:
+Play distribution for ucb1: 0: 21  1: 11  2: 11  3: 7  4: 9  5: 9  6: 9  7: 9  8: 7  9: 7  
+Reward distribution for ucb1: 0: 19  1: 7  2: 7  3: 2  4: 4  5: 4  6: 5  7: 5  8: 2  9: 3  
+Regret for ucb1: 19.900000000000006
+% best machine played for ucb1: 0.21
 
-i = 999999:
-Play distribution for ucb1: 0: 997131  1: 443  2: 321  3: 334  4: 292  5: 294  6: 300  7: 260  8: 289  9: 346  
-Reward distribution for ucb1: 0: 897823  1: 290  2: 196  3: 206  4: 174  5: 176  6: 180  7: 150  8: 172  9: 215  
-Regret for ucb1: 859.0
-% best machine played for ucb1: 0.9971210287897121
+i = 100:
+Play distribution for ucb1: 0: 23  1: 12  2: 11  3: 7  4: 9  5: 9  6: 11  7: 11  8: 7  9: 10  
+Reward distribution for ucb1: 0: 21  1: 8  2: 7  3: 2  4: 4  5: 4  6: 6  7: 6  8: 2  9: 5  
+Regret for ucb1: 21.900000000000006
+% best machine played for ucb1: 0.20909090909090908
+
+i = 300:
+Play distribution for ucb1: 0: 84  1: 27  2: 38  3: 24  4: 16  5: 23  6: 26  7: 20  8: 24  9: 28  
+Reward distribution for ucb1: 0: 74  1: 16  2: 26  3: 13  4: 6  5: 12  6: 15  7: 9  8: 13  9: 17  
+Regret for ucb1: 64.90000000000003
+% best machine played for ucb1: 0.2709677419354839
+
+i = 600:
+Play distribution for ucb1: 0: 212  1: 45  2: 56  3: 35  4: 60  5: 40  6: 52  7: 34  8: 39  9: 37  
+Reward distribution for ucb1: 0: 190  1: 27  2: 37  3: 19  4: 40  5: 23  6: 33  7: 18  8: 22  9: 20  
+Regret for ucb1: 113.89999999999998
+% best machine played for ucb1: 0.3475409836065574
+
+i = 900:
+Play distribution for ucb1: 0: 344  1: 56  2: 67  3: 69  4: 71  5: 71  6: 66  7: 64  8: 51  9: 51  
+Reward distribution for ucb1: 0: 306  1: 33  2: 42  3: 44  4: 46  5: 46  6: 41  7: 40  8: 29  9: 29  
+Regret for ucb1: 166.89999999999998
+% best machine played for ucb1: 0.378021978021978
+
+i = 1000:
+Play distribution for ucb1: 0: 381  1: 62  2: 80  3: 71  4: 75  5: 74  6: 67  7: 90  8: 54  9: 56  
+Reward distribution for ucb1: 0: 336  1: 37  2: 52  3: 44  4: 48  5: 47  6: 41  7: 61  8: 30  9: 32  
+Regret for ucb1: 183.89999999999998
+% best machine played for ucb1: 0.37722772277227723
+
+i = 3000:
+Play distribution for ucb1: 0: 1997  1: 130  2: 124  3: 95  4: 105  5: 133  6: 100  7: 141  8: 103  9: 82  
+Reward distribution for ucb1: 0: 1813  1: 84  2: 79  3: 55  4: 63  5: 86  6: 59  7: 93  8: 62  9: 45  
+Regret for ucb1: 298.9000000000001
+% best machine played for ucb1: 0.6634551495016612
+
+i = 6000:
+Play distribution for ucb1: 0: 4798  1: 155  2: 151  3: 106  4: 132  5: 168  6: 110  7: 179  8: 114  9: 97  
+Reward distribution for ucb1: 0: 4333  1: 97  2: 94  3: 59  4: 79  5: 107  6: 62  7: 116  8: 65  9: 52  
+Regret for ucb1: 358.90000000000055
+% best machine played for ucb1: 0.7983361064891847
+
+i = 9000:
+Play distribution for ucb1: 0: 7663  1: 159  2: 163  3: 145  4: 141  5: 179  6: 127  7: 201  8: 132  9: 100  
+Reward distribution for ucb1: 0: 6898  1: 97  2: 100  3: 86  4: 83  5: 112  6: 72  7: 130  8: 76  9: 52  
+Regret for ucb1: 399.90000000000055
+% best machine played for ucb1: 0.8504994450610432
+
+i = 10000:
+Play distribution for ucb1: 0: 8637  1: 160  2: 177  3: 146  4: 143  5: 179  6: 130  7: 202  8: 134  9: 102  
+Reward distribution for ucb1: 0: 7788  1: 97  2: 110  3: 86  4: 84  5: 112  6: 74  7: 130  8: 77  9: 53  
+Regret for ucb1: 406.89999999999964
+% best machine played for ucb1: 0.8628371628371628
+
+i = 30000:
+Play distribution for ucb1: 0: 28246  1: 201  2: 242  3: 176  4: 178  5: 219  6: 158  7: 269  8: 163  9: 158  
+Reward distribution for ucb1: 0: 25467  1: 122  2: 154  3: 103  4: 104  5: 136  6: 89  7: 175  8: 93  9: 89  
+Regret for ucb1: 526.9000000000015
+% best machine played for ucb1: 0.9412195934688438
+
+i = 60000:
+Play distribution for ucb1: 0: 58058  1: 207  2: 262  3: 186  4: 190  5: 266  6: 182  7: 308  8: 186  9: 165  
+Reward distribution for ucb1: 0: 52321  1: 123  2: 165  3: 107  4: 110  5: 168  6: 104  7: 201  8: 107  9: 91  
+Regret for ucb1: 580.9000000000015
+% best machine played for ucb1: 0.9674720879853358
+
+i = 90000:
+Play distribution for ucb1: 0: 87945  1: 214  2: 291  3: 191  4: 197  5: 291  6: 191  7: 312  8: 191  9: 187  
+Reward distribution for ucb1: 0: 79181  1: 126  2: 185  3: 109  4: 113  5: 185  6: 109  7: 201  8: 109  9: 106  
+Regret for ucb1: 615.9000000000087
+% best machine played for ucb1: 0.9770581046550383
+
+i = 100000:
+Play distribution for ucb1: 0: 97919  1: 215  2: 292  3: 193  4: 197  5: 305  6: 193  7: 312  8: 196  9: 188  
+Reward distribution for ucb1: 0: 88184  1: 126  2: 185  3: 110  4: 113  5: 195  6: 110  7: 201  8: 112  9: 106  
+Regret for ucb1: 622.9000000000087
+% best machine played for ucb1: 0.9790920907909209
+
+i = 300000:
+Play distribution for ucb1: 0: 297664  1: 233  2: 320  3: 245  4: 232  5: 332  6: 218  7: 328  8: 209  9: 229  
+Reward distribution for ucb1: 0: 267861  1: 135  2: 201  3: 144  4: 134  5: 210  6: 124  7: 207  8: 117  9: 132  
+Regret for ucb1: 699.9000000000233
+% best machine played for ucb1: 0.992180260657978
+
+i = 600000:
+Play distribution for ucb1: 0: 597522  1: 257  2: 331  3: 257  4: 244  5: 368  6: 226  7: 348  8: 223  9: 234  
+Reward distribution for ucb1: 0: 537591  1: 150  2: 206  3: 150  4: 140  5: 234  6: 127  7: 219  8: 125  9: 133  
+Regret for ucb1: 743.9000000000233
+% best machine played for ucb1: 0.9958534024432926
+
+i = 900000:
+Play distribution for ucb1: 0: 897432  1: 263  2: 335  3: 278  4: 247  5: 372  6: 229  7: 359  8: 225  9: 270  
+Reward distribution for ucb1: 0: 807395  1: 153  2: 207  3: 164  4: 141  5: 235  6: 128  7: 225  8: 125  9: 158  
+Regret for ucb1: 768.9000000000233
+% best machine played for ucb1: 0.9971355873823624
+
+i = 1000000:
+Play distribution for ucb1: 0: 997423  1: 264  2: 336  3: 279  4: 248  5: 372  6: 230  7: 359  8: 227  9: 272  
+Reward distribution for ucb1: 0: 897473  1: 153  2: 207  3: 164  4: 141  5: 235  6: 128  7: 225  8: 126  9: 159  
+Regret for ucb1: 771.9000000000233
+% best machine played for ucb1: 0.9974130258697413
+
 
 
 ENGREEDY: C = 0.05
 
-i = 0:
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 1  9: 0  
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
-Regret for enGreedy: 0.9
+i = 1:
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 1  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 1  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 1.8
+% best machine played for enGreedy: 0.0
+
+i = 3:
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 2  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 2  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 2.6
+% best machine played for enGreedy: 0.0
+
+i = 6:
+Play distribution for enGreedy: 0: 0  1: 1  2: 1  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 5.3
 % best machine played for enGreedy: 0.0
 
 i = 9:
-Play distribution for enGreedy: 0: 3  1: 0  2: 1  3: 1  4: 0  5: 1  6: 2  7: 0  8: 2  9: 0  
-Play distribution for enGreedy: 0: 3  1: 0  2: 0  3: 1  4: 0  5: 0  6: 2  7: 0  8: 1  9: 0  
-Regret for enGreedy: 5.0
+Play distribution for enGreedy: 0: 2  1: 2  2: 1  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 0  2: 0  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 6.0
+% best machine played for enGreedy: 0.2222222222222222
+
+i = 10:
+Play distribution for enGreedy: 0: 3  1: 2  2: 1  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 3  1: 0  2: 0  3: 2  4: 1  5: 1  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 5.9
 % best machine played for enGreedy: 0.3
 
-i = 99:
-Play distribution for enGreedy: 0: 80  1: 3  2: 4  3: 4  4: 1  5: 2  6: 4  7: 0  8: 2  9: 0  
-Play distribution for enGreedy: 0: 76  1: 2  2: 2  3: 3  4: 0  5: 1  6: 3  7: 0  8: 1  9: 0  
-Regret for enGreedy: 9.0
-% best machine played for enGreedy: 0.8
+i = 30:
+Play distribution for enGreedy: 0: 19  1: 2  2: 1  3: 3  4: 2  5: 2  6: 0  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 19  1: 0  2: 0  3: 3  4: 2  5: 1  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 6.900000000000002
+% best machine played for enGreedy: 0.6333333333333333
 
-i = 999:
-Play distribution for enGreedy: 0: 959  1: 4  2: 6  3: 5  4: 2  5: 4  6: 5  7: 8  8: 5  9: 2  
-Play distribution for enGreedy: 0: 859  1: 2  2: 3  3: 4  4: 0  5: 2  6: 4  7: 7  8: 3  9: 0  
-Regret for enGreedy: 15.0
-% best machine played for enGreedy: 0.959
+i = 60:
+Play distribution for enGreedy: 0: 46  1: 3  2: 1  3: 4  4: 3  5: 2  6: 0  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 44  1: 0  2: 0  3: 3  4: 2  5: 1  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 8.899999999999999
+% best machine played for enGreedy: 0.7666666666666667
 
-i = 9999:
-Play distribution for enGreedy: 0: 9941  1: 4  2: 8  3: 9  4: 7  5: 5  6: 7  7: 11  8: 6  9: 2  
-Play distribution for enGreedy: 0: 8980  1: 2  2: 5  3: 8  4: 3  5: 2  6: 5  7: 7  8: 4  9: 0  
-Regret for enGreedy: 22.0
-% best machine played for enGreedy: 0.9941
+i = 90:
+Play distribution for enGreedy: 0: 74  1: 3  2: 1  3: 4  4: 3  5: 2  6: 0  7: 1  8: 2  9: 0  
+Play distribution for enGreedy: 0: 69  1: 0  2: 0  3: 3  4: 2  5: 1  6: 0  7: 0  8: 1  9: 0  
+Regret for enGreedy: 9.900000000000006
+% best machine played for enGreedy: 0.8222222222222222
 
-i = 99999:
-Play distribution for enGreedy: 0: 99929  1: 6  2: 8  3: 12  4: 8  5: 6  6: 9  7: 11  8: 9  9: 2  
-Play distribution for enGreedy: 0: 89883  1: 3  2: 5  3: 10  4: 4  5: 3  6: 5  7: 7  8: 6  9: 0  
-Regret for enGreedy: 26.0
-% best machine played for enGreedy: 0.99929
+i = 100:
+Play distribution for enGreedy: 0: 84  1: 3  2: 1  3: 4  4: 3  5: 2  6: 0  7: 1  8: 2  9: 0  
+Play distribution for enGreedy: 0: 79  1: 0  2: 0  3: 3  4: 2  5: 1  6: 0  7: 0  8: 1  9: 0  
+Regret for enGreedy: 9.900000000000006
+% best machine played for enGreedy: 0.84
 
-i = 999999:
-Play distribution for enGreedy: 0: 999916  1: 8  2: 8  3: 15  4: 8  5: 6  6: 10  7: 12  8: 12  9: 5  
-Play distribution for enGreedy: 0: 899729  1: 5  2: 5  3: 11  4: 4  5: 3  6: 6  7: 7  8: 8  9: 1  
-Regret for enGreedy: 29.0
-% best machine played for enGreedy: 0.999916
+i = 300:
+Play distribution for enGreedy: 0: 280  1: 4  2: 1  3: 5  4: 3  5: 2  6: 1  7: 2  8: 2  9: 0  
+Play distribution for enGreedy: 0: 253  1: 0  2: 0  3: 4  4: 2  5: 1  6: 0  7: 0  8: 1  9: 0  
+Regret for enGreedy: 9.900000000000034
+% best machine played for enGreedy: 0.9333333333333333
+
+i = 600:
+Play distribution for enGreedy: 0: 572  1: 4  2: 1  3: 5  4: 4  5: 3  6: 1  7: 4  8: 4  9: 2  
+Play distribution for enGreedy: 0: 518  1: 0  2: 0  3: 4  4: 3  5: 1  6: 0  7: 2  8: 3  9: 1  
+Regret for enGreedy: 13.899999999999977
+% best machine played for enGreedy: 0.9533333333333334
+
+i = 900:
+Play distribution for enGreedy: 0: 871  1: 5  2: 1  3: 5  4: 4  5: 3  6: 1  7: 4  8: 4  9: 2  
+Play distribution for enGreedy: 0: 778  1: 1  2: 0  3: 4  4: 3  5: 1  6: 0  7: 2  8: 3  9: 1  
+Regret for enGreedy: 13.899999999999977
+% best machine played for enGreedy: 0.9677777777777777
+
+i = 1000:
+Play distribution for enGreedy: 0: 971  1: 5  2: 1  3: 5  4: 4  5: 3  6: 1  7: 4  8: 4  9: 2  
+Play distribution for enGreedy: 0: 867  1: 1  2: 0  3: 4  4: 3  5: 1  6: 0  7: 2  8: 3  9: 1  
+Regret for enGreedy: 13.899999999999977
+% best machine played for enGreedy: 0.971
+
+i = 3000:
+Play distribution for enGreedy: 0: 2964  1: 5  2: 1  3: 6  4: 5  5: 4  6: 1  7: 4  8: 7  9: 3  
+Play distribution for enGreedy: 0: 2673  1: 1  2: 0  3: 5  4: 4  5: 2  6: 0  7: 2  8: 5  9: 2  
+Regret for enGreedy: 15.900000000000091
+% best machine played for enGreedy: 0.988
+
+i = 6000:
+Play distribution for enGreedy: 0: 5961  1: 5  2: 1  3: 6  4: 5  5: 4  6: 3  7: 5  8: 7  9: 3  
+Play distribution for enGreedy: 0: 5359  1: 1  2: 0  3: 5  4: 4  5: 2  6: 2  7: 3  8: 5  9: 2  
+Regret for enGreedy: 16.900000000000546
+% best machine played for enGreedy: 0.9935
+
+i = 9000:
+Play distribution for enGreedy: 0: 8960  1: 5  2: 1  3: 6  4: 5  5: 4  6: 4  7: 5  8: 7  9: 3  
+Play distribution for enGreedy: 0: 8045  1: 1  2: 0  3: 5  4: 4  5: 2  6: 3  7: 3  8: 5  9: 2  
+Regret for enGreedy: 15.900000000000546
+% best machine played for enGreedy: 0.9955555555555555
+
+i = 10000:
+Play distribution for enGreedy: 0: 9960  1: 5  2: 1  3: 6  4: 5  5: 4  6: 4  7: 5  8: 7  9: 3  
+Play distribution for enGreedy: 0: 8927  1: 1  2: 0  3: 5  4: 4  5: 2  6: 3  7: 3  8: 5  9: 2  
+Regret for enGreedy: 15.899999999999636
+% best machine played for enGreedy: 0.996
+
+i = 30000:
+Play distribution for enGreedy: 0: 29950  1: 5  2: 1  3: 7  4: 6  5: 5  6: 6  7: 8  8: 9  9: 3  
+Play distribution for enGreedy: 0: 26992  1: 1  2: 0  3: 5  4: 5  5: 3  6: 4  7: 4  8: 6  9: 2  
+Regret for enGreedy: 19.900000000001455
+% best machine played for enGreedy: 0.9983333333333333
+
+i = 60000:
+Play distribution for enGreedy: 0: 59948  1: 5  2: 2  3: 7  4: 7  5: 5  6: 6  7: 8  8: 9  9: 3  
+Play distribution for enGreedy: 0: 54059  1: 1  2: 0  3: 5  4: 6  5: 3  6: 4  7: 4  8: 6  9: 2  
+Regret for enGreedy: 19.900000000001455
+% best machine played for enGreedy: 0.9991333333333333
+
+i = 90000:
+Play distribution for enGreedy: 0: 89947  1: 5  2: 2  3: 7  4: 7  5: 5  6: 7  7: 8  8: 9  9: 3  
+Play distribution for enGreedy: 0: 81037  1: 1  2: 0  3: 5  4: 6  5: 3  6: 4  7: 4  8: 6  9: 2  
+Regret for enGreedy: 19.90000000000873
+% best machine played for enGreedy: 0.9994111111111111
+
+i = 100000:
+Play distribution for enGreedy: 0: 99947  1: 5  2: 2  3: 7  4: 7  5: 5  6: 7  7: 8  8: 9  9: 3  
+Play distribution for enGreedy: 0: 90055  1: 1  2: 0  3: 5  4: 6  5: 3  6: 4  7: 4  8: 6  9: 2  
+Regret for enGreedy: 19.90000000000873
+% best machine played for enGreedy: 0.99947
+
+i = 300000:
+Play distribution for enGreedy: 0: 299941  1: 6  2: 2  3: 7  4: 8  5: 6  6: 7  7: 10  8: 10  9: 3  
+Play distribution for enGreedy: 0: 270106  1: 2  2: 0  3: 5  4: 7  5: 4  6: 4  7: 5  8: 7  9: 2  
+Regret for enGreedy: 22.900000000023283
+% best machine played for enGreedy: 0.9998033333333334
+
+i = 600000:
+Play distribution for enGreedy: 0: 599938  1: 6  2: 2  3: 7  4: 9  5: 6  6: 9  7: 10  8: 10  9: 3  
+Play distribution for enGreedy: 0: 540331  1: 2  2: 0  3: 5  4: 7  5: 4  6: 4  7: 5  8: 7  9: 2  
+Regret for enGreedy: 22.900000000023283
+% best machine played for enGreedy: 0.9998966666666667
+
+i = 900000:
+Play distribution for enGreedy: 0: 899936  1: 6  2: 2  3: 7  4: 9  5: 6  6: 9  7: 11  8: 11  9: 3  
+Play distribution for enGreedy: 0: 810422  1: 2  2: 0  3: 5  4: 7  5: 4  6: 4  7: 6  8: 8  9: 2  
+Regret for enGreedy: 24.900000000023283
+% best machine played for enGreedy: 0.9999288888888889
+
+i = 1000000:
+Play distribution for enGreedy: 0: 999935  1: 6  2: 2  3: 7  4: 9  5: 6  6: 10  7: 11  8: 11  9: 3  
+Play distribution for enGreedy: 0: 900501  1: 2  2: 0  3: 5  4: 7  5: 4  6: 5  7: 6  8: 8  9: 2  
+Regret for enGreedy: 24.900000000023283
+% best machine played for enGreedy: 0.999935
+
 
 
 ENGREEDY: C = 0.1
 
-i = 0:
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 1  7: 0  8: 0  9: 0  
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 1  7: 0  8: 0  9: 0  
-Regret for enGreedy: 0.9
+i = 1:
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 1  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 1  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 1.8
 % best machine played for enGreedy: 0.0
+
+i = 3:
+Play distribution for enGreedy: 0: 1  1: 0  2: 0  3: 2  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 1  1: 0  2: 0  3: 2  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 2.6
+% best machine played for enGreedy: 0.3333333333333333
+
+i = 6:
+Play distribution for enGreedy: 0: 1  1: 1  2: 0  3: 3  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 1  1: 1  2: 0  3: 2  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 5.3
+% best machine played for enGreedy: 0.16666666666666666
 
 i = 9:
-Play distribution for enGreedy: 0: 0  1: 1  2: 1  3: 0  4: 1  5: 2  6: 2  7: 1  8: 1  9: 1  
-Play distribution for enGreedy: 0: 0  1: 0  2: 1  3: 0  4: 0  5: 1  6: 1  7: 1  8: 1  9: 1  
+Play distribution for enGreedy: 0: 2  1: 1  2: 1  3: 3  4: 1  5: 0  6: 0  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 1  2: 1  3: 2  4: 1  5: 0  6: 0  7: 1  8: 0  9: 0  
 Regret for enGreedy: 7.0
-% best machine played for enGreedy: 0.0
+% best machine played for enGreedy: 0.2222222222222222
 
-i = 99:
-Play distribution for enGreedy: 0: 53  1: 5  2: 6  3: 2  4: 5  5: 5  6: 6  7: 9  8: 5  9: 4  
-Play distribution for enGreedy: 0: 46  1: 1  2: 5  3: 1  4: 2  5: 3  6: 4  7: 6  8: 4  9: 2  
-Regret for enGreedy: 17.0
-% best machine played for enGreedy: 0.53
+i = 10:
+Play distribution for enGreedy: 0: 2  1: 1  2: 1  3: 3  4: 1  5: 0  6: 0  7: 1  8: 1  9: 0  
+Play distribution for enGreedy: 0: 2  1: 1  2: 1  3: 2  4: 1  5: 0  6: 0  7: 1  8: 0  9: 0  
+Regret for enGreedy: 7.9
+% best machine played for enGreedy: 0.2
 
-i = 999:
-Play distribution for enGreedy: 0: 933  1: 7  2: 10  3: 3  4: 7  5: 7  6: 10  7: 10  8: 7  9: 6  
-Play distribution for enGreedy: 0: 839  1: 2  2: 7  3: 2  4: 3  5: 4  6: 6  7: 7  8: 5  9: 4  
-Regret for enGreedy: 23.0
-% best machine played for enGreedy: 0.933
+i = 30:
+Play distribution for enGreedy: 0: 9  1: 2  2: 3  3: 4  4: 1  5: 0  6: 2  7: 3  8: 5  9: 1  
+Play distribution for enGreedy: 0: 8  1: 1  2: 3  3: 2  4: 1  5: 0  6: 1  7: 3  8: 1  9: 1  
+Regret for enGreedy: 10.900000000000002
+% best machine played for enGreedy: 0.3
 
-i = 9999:
-Play distribution for enGreedy: 0: 9915  1: 8  2: 12  3: 4  4: 9  5: 10  6: 10  7: 15  8: 8  9: 9  
-Play distribution for enGreedy: 0: 8901  1: 3  2: 8  3: 2  4: 5  5: 5  6: 6  7: 11  8: 5  9: 7  
-Regret for enGreedy: 29.0
-% best machine played for enGreedy: 0.9915
+i = 60:
+Play distribution for enGreedy: 0: 16  1: 3  2: 6  3: 4  4: 3  5: 8  6: 2  7: 10  8: 6  9: 2  
+Play distribution for enGreedy: 0: 15  1: 2  2: 5  3: 2  4: 2  5: 6  6: 1  7: 8  8: 1  9: 1  
+Regret for enGreedy: 18.9
+% best machine played for enGreedy: 0.26666666666666666
 
-i = 99999:
-Play distribution for enGreedy: 0: 99890  1: 9  2: 13  3: 6  4: 14  5: 12  6: 15  7: 18  8: 11  9: 12  
-Play distribution for enGreedy: 0: 90027  1: 3  2: 8  3: 3  4: 8  5: 6  6: 9  7: 13  8: 7  9: 9  
-Regret for enGreedy: 37.0
-% best machine played for enGreedy: 0.9989
+i = 90:
+Play distribution for enGreedy: 0: 42  1: 3  2: 6  3: 5  4: 3  5: 8  6: 2  7: 10  8: 7  9: 4  
+Play distribution for enGreedy: 0: 39  1: 2  2: 5  3: 2  4: 2  5: 6  6: 1  7: 8  8: 2  9: 2  
+Regret for enGreedy: 19.900000000000006
+% best machine played for enGreedy: 0.4666666666666667
 
-i = 999999:
-Play distribution for enGreedy: 0: 999862  1: 12  2: 15  3: 6  4: 16  5: 17  6: 18  7: 24  8: 16  9: 14  
-Play distribution for enGreedy: 0: 900061  1: 5  2: 10  3: 3  4: 10  5: 9  6: 10  7: 17  8: 8  9: 11  
-Regret for enGreedy: 46.0
-% best machine played for enGreedy: 0.999862
+i = 100:
+Play distribution for enGreedy: 0: 50  1: 3  2: 6  3: 5  4: 3  5: 9  6: 3  7: 10  8: 7  9: 4  
+Play distribution for enGreedy: 0: 47  1: 2  2: 5  3: 2  4: 2  5: 6  6: 2  7: 8  8: 2  9: 2  
+Regret for enGreedy: 19.900000000000006
+% best machine played for enGreedy: 0.5
+
+i = 300:
+Play distribution for enGreedy: 0: 241  1: 3  2: 8  3: 5  4: 4  5: 9  6: 4  7: 11  8: 9  9: 6  
+Play distribution for enGreedy: 0: 218  1: 2  2: 6  3: 2  4: 3  5: 6  6: 2  7: 8  8: 3  9: 4  
+Regret for enGreedy: 23.900000000000034
+% best machine played for enGreedy: 0.8033333333333333
+
+i = 600:
+Play distribution for enGreedy: 0: 531  1: 4  2: 9  3: 7  4: 6  5: 11  6: 5  7: 11  8: 9  9: 7  
+Play distribution for enGreedy: 0: 489  1: 3  2: 7  3: 4  4: 4  5: 8  6: 3  7: 8  8: 3  9: 4  
+Regret for enGreedy: 25.899999999999977
+% best machine played for enGreedy: 0.885
+
+i = 900:
+Play distribution for enGreedy: 0: 828  1: 4  2: 9  3: 7  4: 6  5: 12  6: 6  7: 12  8: 9  9: 7  
+Play distribution for enGreedy: 0: 748  1: 3  2: 7  3: 4  4: 4  5: 9  6: 4  7: 8  8: 3  9: 4  
+Regret for enGreedy: 25.899999999999977
+% best machine played for enGreedy: 0.92
+
+i = 1000:
+Play distribution for enGreedy: 0: 927  1: 4  2: 9  3: 7  4: 7  5: 12  6: 6  7: 12  8: 9  9: 7  
+Play distribution for enGreedy: 0: 838  1: 3  2: 7  3: 4  4: 4  5: 9  6: 4  7: 8  8: 3  9: 4  
+Regret for enGreedy: 25.899999999999977
+% best machine played for enGreedy: 0.927
+
+i = 3000:
+Play distribution for enGreedy: 0: 2917  1: 5  2: 12  3: 8  4: 8  5: 12  6: 6  7: 13  8: 10  9: 9  
+Play distribution for enGreedy: 0: 2633  1: 3  2: 8  3: 4  4: 5  5: 9  6: 4  7: 9  8: 4  9: 5  
+Regret for enGreedy: 29.90000000000009
+% best machine played for enGreedy: 0.9723333333333334
+
+i = 6000:
+Play distribution for enGreedy: 0: 5906  1: 7  2: 12  3: 9  4: 9  5: 14  6: 8  7: 14  8: 12  9: 9  
+Play distribution for enGreedy: 0: 5318  1: 4  2: 8  3: 5  4: 6  5: 9  6: 4  7: 10  8: 6  9: 5  
+Regret for enGreedy: 32.900000000000546
+% best machine played for enGreedy: 0.9843333333333333
+
+i = 9000:
+Play distribution for enGreedy: 0: 8903  1: 7  2: 12  3: 9  4: 9  5: 14  6: 8  7: 16  8: 12  9: 10  
+Play distribution for enGreedy: 0: 7999  1: 4  2: 8  3: 5  4: 6  5: 9  6: 4  7: 10  8: 6  9: 5  
+Regret for enGreedy: 33.900000000000546
+% best machine played for enGreedy: 0.9892222222222222
+
+i = 10000:
+Play distribution for enGreedy: 0: 9902  1: 7  2: 13  3: 9  4: 9  5: 14  6: 8  7: 16  8: 12  9: 10  
+Play distribution for enGreedy: 0: 8890  1: 4  2: 9  3: 5  4: 6  5: 9  6: 4  7: 10  8: 6  9: 5  
+Regret for enGreedy: 34.899999999999636
+% best machine played for enGreedy: 0.9902
+
+i = 30000:
+Play distribution for enGreedy: 0: 29892  1: 10  2: 13  3: 10  4: 9  5: 15  6: 9  7: 17  8: 15  9: 10  
+Play distribution for enGreedy: 0: 26886  1: 7  2: 9  3: 5  4: 6  5: 9  6: 4  7: 10  8: 7  9: 5  
+Regret for enGreedy: 35.900000000001455
+% best machine played for enGreedy: 0.9964
+
+i = 60000:
+Play distribution for enGreedy: 0: 59882  1: 11  2: 15  3: 10  4: 10  5: 16  6: 11  7: 17  8: 16  9: 12  
+Play distribution for enGreedy: 0: 53852  1: 7  2: 10  3: 5  4: 6  5: 9  6: 5  7: 10  8: 7  9: 7  
+Regret for enGreedy: 39.900000000001455
+% best machine played for enGreedy: 0.9980333333333333
+
+i = 90000:
+Play distribution for enGreedy: 0: 89878  1: 11  2: 15  3: 11  4: 10  5: 17  6: 11  7: 17  8: 16  9: 14  
+Play distribution for enGreedy: 0: 80907  1: 7  2: 10  3: 5  4: 6  5: 10  6: 5  7: 10  8: 7  9: 8  
+Regret for enGreedy: 40.90000000000873
+% best machine played for enGreedy: 0.9986444444444444
+
+i = 100000:
+Play distribution for enGreedy: 0: 99878  1: 11  2: 15  3: 11  4: 10  5: 17  6: 11  7: 17  8: 16  9: 14  
+Play distribution for enGreedy: 0: 89962  1: 7  2: 10  3: 5  4: 6  5: 10  6: 5  7: 10  8: 7  9: 8  
+Regret for enGreedy: 40.90000000000873
+% best machine played for enGreedy: 0.99878
+
+i = 300000:
+Play distribution for enGreedy: 0: 299869  1: 11  2: 15  3: 12  4: 11  5: 18  6: 12  7: 19  8: 19  9: 14  
+Play distribution for enGreedy: 0: 270003  1: 7  2: 10  3: 5  4: 6  5: 11  6: 6  7: 10  8: 9  9: 8  
+Regret for enGreedy: 43.90000000002328
+% best machine played for enGreedy: 0.9995633333333334
+
+i = 600000:
+Play distribution for enGreedy: 0: 599856  1: 13  2: 16  3: 13  4: 11  5: 20  6: 13  7: 22  8: 22  9: 14  
+Play distribution for enGreedy: 0: 540134  1: 9  2: 11  3: 6  4: 6  5: 13  6: 7  7: 12  8: 11  9: 8  
+Regret for enGreedy: 48.90000000002328
+% best machine played for enGreedy: 0.99976
+
+i = 900000:
+Play distribution for enGreedy: 0: 899848  1: 14  2: 17  3: 13  4: 12  5: 22  6: 14  7: 22  8: 23  9: 15  
+Play distribution for enGreedy: 0: 810157  1: 10  2: 12  3: 6  4: 6  5: 13  6: 7  7: 12  8: 11  9: 9  
+Regret for enGreedy: 49.90000000002328
+% best machine played for enGreedy: 0.9998311111111111
+
+i = 1000000:
+Play distribution for enGreedy: 0: 999848  1: 14  2: 17  3: 13  4: 12  5: 22  6: 14  7: 22  8: 23  9: 15  
+Play distribution for enGreedy: 0: 900154  1: 10  2: 12  3: 6  4: 6  5: 13  6: 7  7: 12  8: 11  9: 9  
+Regret for enGreedy: 49.90000000002328
+% best machine played for enGreedy: 0.999848
+
 
 
 ENGREEDY: C = 0.15
 
-i = 0:
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 1  7: 0  8: 0  9: 0  
-Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 1  7: 0  8: 0  9: 0  
-Regret for enGreedy: 0.9
+i = 1:
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 0  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 1.8
 % best machine played for enGreedy: 0.0
 
+i = 3:
+Play distribution for enGreedy: 0: 2  1: 0  2: 0  3: 0  4: 1  5: 0  6: 0  7: 0  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 0  2: 0  3: 0  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 2.6
+% best machine played for enGreedy: 0.6666666666666666
+
+i = 6:
+Play distribution for enGreedy: 0: 2  1: 0  2: 0  3: 2  4: 1  5: 0  6: 0  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 0  2: 0  3: 1  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 4.3
+% best machine played for enGreedy: 0.3333333333333333
+
 i = 9:
-Play distribution for enGreedy: 0: 1  1: 2  2: 1  3: 1  4: 1  5: 1  6: 1  7: 1  8: 0  9: 1  
-Play distribution for enGreedy: 0: 1  1: 1  2: 0  3: 0  4: 0  5: 0  6: 1  7: 1  8: 0  9: 0  
-Regret for enGreedy: 8.0
-% best machine played for enGreedy: 0.1
+Play distribution for enGreedy: 0: 2  1: 0  2: 1  3: 3  4: 1  5: 1  6: 0  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 0  2: 1  3: 2  4: 0  5: 0  6: 0  7: 0  8: 0  9: 0  
+Regret for enGreedy: 7.0
+% best machine played for enGreedy: 0.2222222222222222
 
-i = 99:
-Play distribution for enGreedy: 0: 53  1: 7  2: 5  3: 4  4: 4  5: 6  6: 7  7: 5  8: 5  9: 4  
-Play distribution for enGreedy: 0: 42  1: 5  2: 3  3: 2  4: 0  5: 2  6: 5  7: 3  8: 2  9: 2  
-Regret for enGreedy: 17.0
-% best machine played for enGreedy: 0.53
+i = 10:
+Play distribution for enGreedy: 0: 2  1: 0  2: 1  3: 3  4: 1  5: 1  6: 1  7: 1  8: 0  9: 0  
+Play distribution for enGreedy: 0: 2  1: 0  2: 1  3: 2  4: 0  5: 0  6: 1  7: 0  8: 0  9: 0  
+Regret for enGreedy: 7.9
+% best machine played for enGreedy: 0.2
 
-i = 999:
-Play distribution for enGreedy: 0: 926  1: 9  2: 6  3: 8  4: 8  5: 10  6: 9  7: 6  8: 10  9: 8  
-Play distribution for enGreedy: 0: 816  1: 7  2: 4  3: 6  4: 1  5: 6  6: 6  7: 4  8: 5  9: 6  
-Regret for enGreedy: 27.0
-% best machine played for enGreedy: 0.926
+i = 30:
+Play distribution for enGreedy: 0: 5  1: 3  2: 5  3: 4  4: 4  5: 2  6: 2  7: 2  8: 1  9: 2  
+Play distribution for enGreedy: 0: 4  1: 2  2: 4  3: 3  4: 1  5: 0  6: 2  7: 1  8: 0  9: 2  
+Regret for enGreedy: 11.900000000000002
+% best machine played for enGreedy: 0.16666666666666666
 
-i = 9999:
-Play distribution for enGreedy: 0: 9900  1: 11  2: 9  3: 12  4: 9  5: 13  6: 10  7: 10  8: 15  9: 11  
-Play distribution for enGreedy: 0: 8863  1: 9  2: 6  3: 9  4: 2  5: 7  6: 7  7: 7  8: 8  9: 9  
-Regret for enGreedy: 33.0
-% best machine played for enGreedy: 0.99
+i = 60:
+Play distribution for enGreedy: 0: 7  1: 6  2: 8  3: 6  4: 4  5: 4  6: 6  7: 2  8: 2  9: 15  
+Play distribution for enGreedy: 0: 5  1: 4  2: 6  3: 4  4: 1  5: 1  6: 4  7: 1  8: 0  9: 11  
+Regret for enGreedy: 20.9
+% best machine played for enGreedy: 0.11666666666666667
 
-i = 99999:
-Play distribution for enGreedy: 0: 99872  1: 12  2: 11  3: 16  4: 11  5: 20  6: 12  7: 14  8: 18  9: 14  
-Play distribution for enGreedy: 0: 89785  1: 10  2: 7  3: 12  4: 3  5: 12  6: 7  7: 10  8: 10  9: 11  
-Regret for enGreedy: 43.0
-% best machine played for enGreedy: 0.99872
+i = 90:
+Play distribution for enGreedy: 0: 17  1: 7  2: 13  3: 13  4: 4  5: 4  6: 7  7: 2  8: 3  9: 20  
+Play distribution for enGreedy: 0: 11  1: 4  2: 8  3: 8  4: 1  5: 1  6: 4  7: 1  8: 1  9: 12  
+Regret for enGreedy: 26.900000000000006
+% best machine played for enGreedy: 0.18888888888888888
 
-i = 999999:
-Play distribution for enGreedy: 0: 999844  1: 12  2: 15  3: 18  4: 14  5: 24  6: 17  7: 19  8: 21  9: 16  
-Play distribution for enGreedy: 0: 899079  1: 10  2: 8  3: 14  4: 4  5: 15  6: 10  7: 13  8: 12  9: 11  
-Regret for enGreedy: 51.0
-% best machine played for enGreedy: 0.999844
+i = 100:
+Play distribution for enGreedy: 0: 24  1: 7  2: 13  3: 13  4: 5  5: 5  6: 8  7: 2  8: 3  9: 20  
+Play distribution for enGreedy: 0: 18  1: 4  2: 8  3: 8  4: 2  5: 1  6: 5  7: 1  8: 1  9: 12  
+Regret for enGreedy: 27.900000000000006
+% best machine played for enGreedy: 0.24
+
+i = 300:
+Play distribution for enGreedy: 0: 209  1: 10  2: 14  3: 13  4: 7  5: 8  6: 9  7: 4  8: 5  9: 21  
+Play distribution for enGreedy: 0: 184  1: 5  2: 9  3: 8  4: 2  5: 2  6: 5  7: 1  8: 1  9: 13  
+Regret for enGreedy: 31.900000000000034
+% best machine played for enGreedy: 0.6966666666666667
+
+i = 600:
+Play distribution for enGreedy: 0: 502  1: 11  2: 17  3: 13  4: 7  5: 9  6: 9  7: 5  8: 6  9: 21  
+Play distribution for enGreedy: 0: 437  1: 6  2: 11  3: 8  4: 2  5: 3  6: 5  7: 2  8: 2  9: 13  
+Regret for enGreedy: 34.89999999999998
+% best machine played for enGreedy: 0.8366666666666667
+
+i = 900:
+Play distribution for enGreedy: 0: 795  1: 11  2: 17  3: 13  4: 7  5: 10  6: 9  7: 7  8: 8  9: 23  
+Play distribution for enGreedy: 0: 697  1: 6  2: 11  3: 8  4: 2  5: 4  6: 5  7: 2  8: 3  9: 15  
+Regret for enGreedy: 36.89999999999998
+% best machine played for enGreedy: 0.8833333333333333
+
+i = 1000:
+Play distribution for enGreedy: 0: 895  1: 11  2: 17  3: 13  4: 7  5: 10  6: 9  7: 7  8: 8  9: 23  
+Play distribution for enGreedy: 0: 788  1: 6  2: 11  3: 8  4: 2  5: 4  6: 5  7: 2  8: 3  9: 15  
+Regret for enGreedy: 36.89999999999998
+% best machine played for enGreedy: 0.895
+
+i = 3000:
+Play distribution for enGreedy: 0: 2878  1: 11  2: 21  3: 16  4: 11  5: 13  6: 9  7: 7  8: 8  9: 26  
+Play distribution for enGreedy: 0: 2570  1: 6  2: 12  3: 11  4: 3  5: 7  6: 5  7: 2  8: 3  9: 17  
+Regret for enGreedy: 42.90000000000009
+% best machine played for enGreedy: 0.9593333333333334
+
+i = 6000:
+Play distribution for enGreedy: 0: 5867  1: 11  2: 21  3: 17  4: 13  5: 14  6: 9  7: 9  8: 12  9: 27  
+Play distribution for enGreedy: 0: 5245  1: 6  2: 12  3: 11  4: 5  5: 7  6: 5  7: 4  8: 6  9: 17  
+Regret for enGreedy: 44.900000000000546
+% best machine played for enGreedy: 0.9778333333333333
+
+i = 9000:
+Play distribution for enGreedy: 0: 8864  1: 11  2: 21  3: 18  4: 14  5: 14  6: 10  7: 9  8: 12  9: 27  
+Play distribution for enGreedy: 0: 7951  1: 6  2: 12  3: 11  4: 5  5: 7  6: 6  7: 4  8: 6  9: 17  
+Regret for enGreedy: 45.900000000000546
+% best machine played for enGreedy: 0.9848888888888889
+
+i = 10000:
+Play distribution for enGreedy: 0: 9863  1: 11  2: 21  3: 18  4: 14  5: 14  6: 10  7: 10  8: 12  9: 27  
+Play distribution for enGreedy: 0: 8848  1: 6  2: 12  3: 11  4: 5  5: 7  6: 6  7: 5  8: 6  9: 17  
+Regret for enGreedy: 45.899999999999636
+% best machine played for enGreedy: 0.9863
+
+i = 30000:
+Play distribution for enGreedy: 0: 29845  1: 11  2: 23  3: 23  4: 19  5: 15  6: 12  7: 12  8: 13  9: 27  
+Play distribution for enGreedy: 0: 26790  1: 6  2: 14  3: 12  4: 8  5: 8  6: 7  7: 7  8: 7  9: 17  
+Regret for enGreedy: 51.900000000001455
+% best machine played for enGreedy: 0.9948333333333333
+
+i = 60000:
+Play distribution for enGreedy: 0: 59840  1: 13  2: 24  3: 24  4: 19  5: 15  6: 13  7: 12  8: 13  9: 27  
+Play distribution for enGreedy: 0: 53764  1: 8  2: 14  3: 12  4: 8  5: 8  6: 8  7: 7  8: 7  9: 17  
+Regret for enGreedy: 52.900000000001455
+% best machine played for enGreedy: 0.9973333333333333
+
+i = 90000:
+Play distribution for enGreedy: 0: 89836  1: 13  2: 25  3: 25  4: 19  5: 17  6: 13  7: 12  8: 13  9: 27  
+Play distribution for enGreedy: 0: 80852  1: 8  2: 15  3: 13  4: 8  5: 10  6: 8  7: 7  8: 7  9: 17  
+Regret for enGreedy: 53.90000000000873
+% best machine played for enGreedy: 0.9981777777777778
+
+i = 100000:
+Play distribution for enGreedy: 0: 99835  1: 14  2: 25  3: 25  4: 19  5: 17  6: 13  7: 12  8: 13  9: 27  
+Play distribution for enGreedy: 0: 89833  1: 8  2: 15  3: 13  4: 8  5: 10  6: 8  7: 7  8: 7  9: 17  
+Regret for enGreedy: 53.90000000000873
+% best machine played for enGreedy: 0.99835
+
+i = 300000:
+Play distribution for enGreedy: 0: 299818  1: 14  2: 28  3: 28  4: 22  5: 20  6: 14  7: 13  8: 15  9: 28  
+Play distribution for enGreedy: 0: 269847  1: 8  2: 18  3: 15  4: 11  5: 12  6: 9  7: 7  8: 9  9: 17  
+Regret for enGreedy: 59.90000000002328
+% best machine played for enGreedy: 0.9993933333333334
+
+i = 600000:
+Play distribution for enGreedy: 0: 599807  1: 16  2: 29  3: 28  4: 24  5: 21  6: 14  7: 15  8: 17  9: 29  
+Play distribution for enGreedy: 0: 539805  1: 9  2: 18  3: 15  4: 12  5: 13  6: 9  7: 7  8: 11  9: 17  
+Regret for enGreedy: 62.90000000002328
+% best machine played for enGreedy: 0.9996783333333333
+
+i = 900000:
+Play distribution for enGreedy: 0: 899797  1: 18  2: 29  3: 29  4: 25  5: 23  6: 14  7: 17  8: 19  9: 29  
+Play distribution for enGreedy: 0: 809807  1: 10  2: 18  3: 15  4: 13  5: 14  6: 9  7: 7  8: 13  9: 17  
+Regret for enGreedy: 65.90000000002328
+% best machine played for enGreedy: 0.9997744444444444
+
+i = 1000000:
+Play distribution for enGreedy: 0: 999796  1: 18  2: 29  3: 29  4: 26  5: 23  6: 14  7: 17  8: 19  9: 29  
+Play distribution for enGreedy: 0: 899625  1: 10  2: 18  3: 15  4: 13  5: 14  6: 9  7: 7  8: 13  9: 17  
+Regret for enGreedy: 66.90000000002328
+% best machine played for enGreedy: 0.999796

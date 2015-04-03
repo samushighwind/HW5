@@ -14,7 +14,7 @@ class Client {
         int[] rewardCounter = new int[10];
         int plays = 0;
         
-        double[] currentDistribution = DIST1;
+        double[] currentDistribution = DIST14;
         
         //initalizing
         for(int i = 0; i < currentDistribution.length; i++) {
@@ -32,9 +32,11 @@ class Client {
             }
             playCounter[j]++;
             plays++;
-            if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
+            i++;
+            if(i==1 || i==3 || i==6 || i==9 || i==10 || i==30|| i==60 || i==90 || i==100 || i==300 || i==600 || i==900 || i==1000 || i==3000 || i==6000 || i==9000 || i==10000 || i==30000 || i==60000 || i==90000 || i==100000 || i== 300000 || i==600000 || i==900000 || i==1000000) {
                 printResults(i, playCounter, rewardCounter, currentDistribution, plays, true);
             }
+            i--;
         }
         
         playCounter = new int[10];
@@ -61,9 +63,11 @@ class Client {
             }
             playCounter[j]++;
             plays++;
-            if(i+1 == 1 || i+1 == 10 || i+1 == 100 || i+1 == 1000 || i+1 == 10000 || i+1 == 100000 || i+1 == 1000000) {
+            i++;
+            if(i==1 || i==3 || i==6 || i==9 || i==10 || i==30|| i==60 || i==90 || i==100 || i==300 || i==600 || i==900 || i==1000 || i==3000 || i==6000 || i==9000 || i==10000 || i==30000 || i==60000 || i==90000 || i==100000 || i== 300000 || i==600000 || i==900000 || i==1000000) {
                 printResults(i, playCounter, rewardCounter, currentDistribution, plays, false);
             }
+            i--;
         }
     }
     

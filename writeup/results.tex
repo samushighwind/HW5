@@ -3,15 +3,18 @@
 \label{sec:results}
 
 Our results are summarized in Figures 1---8 in the appendix
-section. For each distribution, we graphed the \% of the time that the
+section. For each distribution, we have graphed the \% of the time that the
 best machine was picked, as well as the regret on a logarithmic x-axis
 of the number of plays.
 
 For all experiments, the $\mathcal{E}_n$-\textlcsc{greedy} policy
-outperformed the \textlcsc{UCB1} policy. This was measured by the fact
+outperforms the \textlcsc{UCB1} policy. This was measured by the fact
 that the $\mathcal{E}_n$-\textlcsc{greedy} policies converged to the
 best policy quicker than the \textlcsc{UCB1} policy, and that the
 \textlcsc{UCB1} policy had a much higher regret than the other
 policies. Furthermore, it appears that higher values of the parameter
 $c$ result in worse performing policies judging by regret, however
-they did not differ greatly.
+they did not differ greatly. We are unclear of the cause of the noise
+in the early plays of the experiment. However, it is likely caused due
+to the initialization of the machines according to their policies. As
+plays accumulate, this noise disappears. 
